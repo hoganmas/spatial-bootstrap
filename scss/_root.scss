@@ -130,7 +130,7 @@
   
   enableXr: true;
   --xr-background-material: translucent;
-  border-radius: 15%;
+  background-color: var(--#{$prefix}body-bg);
 }
 
 @if $enable-dark-mode {
@@ -190,6 +190,7 @@
 
     enableXr: true;
     --xr-background-material: translucent;
-    border-radius: 15%;
+    background-color: var(--#{$prefix}body-bg);
+    background-color: transparent;
   }
 }
