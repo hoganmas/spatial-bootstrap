@@ -126,6 +126,7 @@
   enableXr: true;
   --xr-background-material: translucent;
   background-color: var(--bs-body-bg);
+  border-radius: var(--bs-border-radius);
 }
 
 [data-bs-theme=dark] {
@@ -186,6 +187,7 @@
   --xr-background-material: translucent;
   background-color: var(--bs-body-bg);
   background-color: transparent;
+  border-radius: var(--bs-border-radius);
 }
 
 *,
